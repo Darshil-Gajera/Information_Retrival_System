@@ -29,4 +29,27 @@ pdf_qa_chatbot/<br>
 │&nbsp;&nbsp;&nbsp;└─ qa_engine.py &nbsp;&nbsp;&nbsp;# Gemini API question-answer functions
 
 
+---
+
+## Setup & Installation
+
+```bash
+# Clone
+git clone https://github.com/<your-username>/Information_Retrival_System.git
+cd Information_Retrival_System
+
+# Create virtual environment (Windows / Linux / macOS)
+python -m venv venv
+
+# Activate venv
+# Windows (PowerShell):
+.\venv\Scripts\Activate
+# (If you see “execution policy” error, run as admin and set execution policy)
+# Linux / macOS:
+source venv/bin/activate
+
+# Upgrade pip & install dependencies
+python -m pip install --upgrade pip
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 
